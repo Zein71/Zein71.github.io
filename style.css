@@ -1,0 +1,44 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    background: url(images/123.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+
+h1 {
+    font-size: 5rem;
+}
+
+.header {
+    color: aquamarine;
+    text-transform: uppercase;
+    align-content: center;
+}
+
+
+#button {
+    border-radius: 50rem;
+    text-transform: uppercase;
+    background-color: #d87093;
+    border-color: gold;
+    --bs-btn-font-weight: 10;
+    --bs-btn-line-height: 2;
+}
+
+#button:hover {
+    background-color: orangered;
+    border-color: #d87093;
+    border-width: 4px;
+}
+
+hr {
+    color: #d87093;
+    margin: 20px auto;
+    border: 3px solid #d87093;
+    max-width: 65px;
+    opacity: 1;
+}
